@@ -722,13 +722,23 @@
         }
 
         .nirmalaVideo {
-            height: 600px;
+            height: 800px;
+            width: 100%;
+        }
+        .nirmalaVideo iframe{
+            height: 100%;
+            width: 100%;
         }
 
         @media screen and (max-width:767px) {
             .nirmalaVideo {
                 height: 350px !important;
             }
+        }
+        @media screen and (min-width:768px) and (max-width:991px){
+            .nirmalaVideo {
+                height:600px !important;
+            } 
         }
     </style>
 </head>
@@ -1085,8 +1095,8 @@
                 </div>
             </div>
             <div class="container">
-                <div class="w-100 my-5 nirmalaVideo">
-                    <iframe class="w-100 h-100"
+                <div class="my-5 nirmalaVideo">
+                    <iframe 
                         src="https://www.youtube.com/embed/5rm9Tnz9Mqg?rel=0&si=l47i6_ZUC0noZOhd"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
