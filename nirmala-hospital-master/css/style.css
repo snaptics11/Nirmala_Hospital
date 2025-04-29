@@ -1,0 +1,582 @@
+.section-title {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.section-borders span {
+  height: 5px;
+  background: #6aaf08;
+  width: 40px;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.section-borders span.black-border {
+  background: #333;
+  width: 30px;
+  margin: 0 6px;
+}
+
+.client-testimonial-carousel .owl-dots button {
+  height: 5px;
+  background: #6aaf08 !important;
+  width: 20px;
+  display: inline-block;
+  margin: 5px;
+  transition: 0.2s;
+  border-radius: 2px;
+}
+
+.client-testimonial-carousel button.owl-dot.active {
+  background: #000 !important;
+  width: 30px;
+}
+
+.client-testimonial-carousel .owl-dots {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.single-testimonial-item {
+  position: relative;
+  box-shadow: 0 0 2px #dadfd3;
+  margin: 2px;
+  padding: 20px;
+  font-style: italic;
+  padding-left: 85px;
+}
+
+.single-testimonial-item:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f10e";
+  font-weight: 900;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  font-size: 20px;
+  color: #6aaf08;
+  line-height: 30px;
+  margin-top: -15px;
+}
+
+.single-testimonial-item:after {
+  background: #ddd;
+  content: "";
+  height: 70%;
+  left: 60px;
+  position: absolute;
+  top: 10%;
+  width: 1px;
+}
+
+.single-testimonial-item h3 {
+  font-size: 20px;
+  font-style: normal;
+  margin-bottom: 0;
+}
+
+.single-testimonial-item h3 span {
+  display: block;
+  font-size: 12px;
+  font-weight: normal;
+  margin-top: 5px;
+}
+.swiper-slide {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.swiper-slide p {
+  line-height: 1.8rem;
+}
+
+/* header */
+nav {
+  max-width: 1200px;
+  display: flex;
+  margin: 0px auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 13%;
+}
+
+.logo img {
+  width: 100%;
+}
+
+/* .nav {
+    width: 80%;
+    display: block !important;
+} */
+
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+  border-bottom: 1px solid #b5b5b5;
+}
+.nav-tabs {
+  display: flex;
+  width: 100%;
+}
+
+.nav2 > ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 50px;
+  column-gap: 48px;
+  width: 100%;
+  margin-bottom: 0px;
+}
+.nav2 ul li {
+  border-radius: 2px;
+}
+
+.nav2 ul li a {
+  text-decoration: none;
+  color: rgb(42, 39, 39);
+  font-family: "roboto", sans-serif;
+
+  padding: 5px 10px;
+  font-weight: 500;
+}
+
+.nav2 ul li a:hover {
+  border-bottom: 3px solid #358e83;
+}
+
+.nav-child p {
+  font-family: "roboto", sans-serif;
+  font-size: 14px;
+  padding-right: 20px;
+  border-right: 1px solid #b5b5b5;
+}
+
+.nav-child p span {
+  color: #b5b5b5;
+  font-size: 14px;
+}
+
+.margin {
+  margin-left: 120px;
+}
+
+.icon i {
+  color: #39404a;
+  display: inline-block;
+  margin: 0px 7px;
+}
+
+.nav-child button {
+  display: inline-block;
+  padding: 5px 23px;
+  font-family: "Quintessential", cursive;
+  background-color: #d1d3d4;
+  border: 0px;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+.nav-child button:hover {
+  background-color: #358e83;
+  color: white;
+}
+.nav-button a {
+  background-color: #358e83;
+  padding: 8px 22px;
+  border-radius: 100px;
+  border: 1px solid #358e83;
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+}
+.cloud-button button {
+  background-color: black;
+  color: white;
+  margin: 0px 20px;
+}
+.nav-button button a {
+  text-decoration: none;
+}
+
+/* header end */
+
+.custom-container {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.world {
+  max-width: 1400px;
+
+  margin: 30px auto;
+  border-radius: 20px;
+  background: linear-gradient(180deg, #358e83 0%, #0f2825 100%);
+}
+.world2 {
+  max-width: 1400px;
+
+  margin: 30px auto;
+  border-radius: 20px;
+}
+@media (max-width: 786px) {
+  .world {
+    border-radius: 0px;
+  }
+}
+
+.world-h1 {
+  font-size: 46px;
+  line-height: 3.8rem;
+  font-weight: 700;
+  padding: 10px 0px;
+}
+@media (max-width: 786px) {
+  .world-h1 {
+    font-size: 26px;
+    line-height: 1.8rem;
+  }
+}
+
+.bg-over {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(222, 240, 250, 0.9);
+}
+
+.services-box {
+  flex-shrink: 0;
+}
+
+.services-ui li {
+  list-style: none !important;
+}
+
+.doctor-box {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.doctor-cart {
+  background-color: #358e83 !important;
+}
+
+.location-box {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.Address {
+  background: var(--color-white-10, rgba(255, 255, 255, 0.1));
+}
+
+.bar {
+  display: none;
+}
+
+.text_iconPlus {
+  position: relative;
+  top: 10px;
+  right: 0px;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+}
+@-webkit-keyframes bugfix {
+  from {
+    padding: 0;
+  }
+  to {
+    padding: 0;
+  }
+}
+
+div.slideouticons {
+  /* main container for slide out icons */
+  position: fixed;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  z-index: 1000;
+  right: 60px;
+  bottom: 100px;
+  margin-top: -160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.slideouticons input {
+  display: none;
+}
+
+div.slideouticons label.mainlabel {
+  border: 2px solid #fff;
+  /* menu anchor icon style */
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 24px; /* font size, pertains to icon fonts specifically */
+  width: 50px; /* width of anchor icon */
+  height: 50px; /* height of anchor icon */
+  text-align: center;
+  color: white;
+  background: #358e83;
+  border-radius: 50%;
+  outline: none;
+  z-index: 100000;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+
+}
+
+div.slideouticons div.iconswrapper {
+  /* DIV that flips over to reveal the hidden icons */
+  position: absolute;
+  margin: 0;
+  top: 60px; /* vertical offset of icons wrapper from the top of main container */
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+}
+
+div.slideouticons div.iconswrapper ul {
+  position: absolute;
+  right: -22px;
+  bottom: 60px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: -1;
+}
+
+div.slideouticons div.iconswrapper ul li {
+  margin-bottom: 10px;
+  position: relative;
+  opacity: 0;
+  width: 50px; /* width of social icons */
+  height: 50px; /* height of social icons */
+  -webkit-transform: translateY(-100%) rotate(0);
+  transform: translateY(-100%) rotate(0);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+div.slideouticons div.iconswrapper ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 24px; /* font size, pertains to icon fonts specifically */
+  width: 100%;
+  height: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  background: #358e83; /* background color of icons */
+  text-decoration: none;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+div.slideouticons div.iconswrapper ul li a:hover {
+  background: #515151; /* background color of icons on hover */
+  color: white;
+}
+
+div.slideouticons input:checked ~ label.mainlabel {
+  background: navy; /* background color of toggler icon when activated */
+}
+
+div.slideouticons input:checked ~ div.iconswrapper {
+  /* flip icons wrapper to reveal icons when activated */
+  -webkit-transform: rotateY(0);
+  transform: rotateY(0);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+div.slideouticons input:checked ~ div.iconswrapper ul li {
+  /* rotate and shift icons into view when activated */
+  opacity: 1;
+  -webkit-transform: translateY(0) rotate(360deg);
+  transform: translateY(0) rotate(360deg);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+div.slideouticons input:checked ~ div.iconswrapper ul li:nth-of-type(1) {
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+  z-index: 4;
+}
+
+div.slideouticons input:checked ~ div.iconswrapper ul li:nth-of-type(2) {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s; /* increment delay by 0.3s for each icon */
+  z-index: 3; /* decrement z-index by 1 for each icon */
+}
+
+div.slideouticons input:checked ~ div.iconswrapper ul li:nth-of-type(3) {
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+  z-index: 2;
+}
+
+div.slideouticons input:checked ~ div.iconswrapper ul li:nth-of-type(4) {
+  -webkit-transition-delay: 0.9s;
+  transition-delay: 0.9s;
+  z-index: 1;
+}
+
+/* ########## Horizontal Version CSS ########## */
+
+div.slideouticons.horizontal div.iconswrapper {
+  top: 0;
+  right: 60px; /* horizontal offset of icons wrapper from the left of main container */
+}
+
+div.slideouticons.horizontal div.iconswrapper ul li {
+  display: inline;
+  float: left;
+  margin-bottom: 0;
+  margin-right: 10px;
+  -webkit-transform: translateX(-100%) rotate(0);
+  transform: translateX(-100%) rotate(0);
+}
+
+div.slideouticons.horizontal input:checked ~ div.iconswrapper ul li {
+  -webkit-transform: translateX(0) rotate(360deg);
+  transform: translateX(0) rotate(360deg);
+}
+
+.elementor-widget-container li p strong,
+.elementor-widget-container li li strong {
+  font-size: 22px;
+  font-weight: 600 !important;
+  color: #000 !important;
+}
+
+.bg-\[length\:110\%_115\%\],
+.bg-\[length\:110\%_105\%\],
+.md\:w-\[32\%\].w-full.h-\[370px\].hidden.md\:block.bg-\[url\(\.\/img\/services\.png\)\].bg-\[length\:110\%_105\%\].p-5.rounded-lg.services-box {
+  background-size: 100% 100% !important;
+}
+@media screen and (max-width: 575px) {
+  .section-title .main-title {
+    font-size: 32px;
+  }
+  .elementor-widget-wrap.elementor-element-populated {
+    justify-content: center !important;
+    margin-top: 15px;
+  }
+  .w-full.h-\[550px\].block.md\:hidden.bg-\[url\(\.\/img\/services\.png\)\].bg-\[length\:110\%_105\%\].p-5.rounded-lg.services-box {
+    background-repeat: no-repeat;
+    background-size: 100% 100% !important;
+    height: fit-content;
+  }
+  .bg-\[length\:110\%_115\%\],
+  .bg-\[length\:110\%_105\%\],
+  .md\:w-\[32\%\].w-full.h-\[370px\].hidden.md\:block.bg-\[url\(\.\/img\/services\.png\)\].bg-\[length\:110\%_105\%\].p-5.rounded-lg.services-box {
+    background-size: 100% 100% !important;
+    min-height: 280px;
+  }
+}
+
+@media (max-width: 1100px) {
+  nav {
+    max-width: 900px;
+  }
+
+  .nav {
+    width: 84%;
+  }
+}
+@media (max-width: 910px) {
+  .nav1 {
+    display: none;
+  }
+
+  .nav2 {
+    display: none;
+  }
+  .box1 {
+    height: 300px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.elementor-9583 .elementor-element.elementor-element-832023f {
+  text-align: justify !important;
+}
+.flex.md\:justify-between.justify-center.md\:px-0.px-5.md\:flex-nowrap.flex-wrap.items-center.gap-20
+  p {
+  text-align: justify;
+}
+.flex.items-center.justify-center.w-\[70\%\].h-12 {
+    background: #fff;
+    height: 100px;
+    padding-inline: 15px;
+}
+.updatedTextAlign{
+  text-align: justify;
+}
+.accordion-body{
+  text-align: justify;
+}
+@media screen and (max-width:767px){
+  .elementor-9583 .elementor-element.elementor-element-470b03d img {
+    width: 100%;
+    border-radius: 12px 12px 12px 12px;
+}
+}
+@media screen and (max-width: 991px) {
+  .startsSubDivs {
+    text-align: center !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flex.items-center.justify-center.w-\[70\%\].h-12 {
+    background: #ffff;
+    padding-inline: 15px;
+    height: 80px;
+    width: 250px;
+  }
+  div.slideouticons {
+    position: fixed;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    z-index: 1000;
+    right: 30px;
+    bottom: 70px;
+}
+}
