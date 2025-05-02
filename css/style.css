@@ -301,7 +301,7 @@ div.slideouticons {
   -webkit-perspective: 1000px;
   perspective: 1000px;
   z-index: 1000;
-  right: 60px;
+  left: 60px;
   bottom: 100px;
   margin-top: -160px;
   display: flex;
@@ -347,10 +347,10 @@ div.slideouticons div.iconswrapper {
   position: absolute;
   margin: 0;
   top: 60px; /* vertical offset of icons wrapper from the top of main container */
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+  /* -webkit-transform: rotateY(180deg); */
+  /* transform: rotateY(180deg); */
+  /* -webkit-backface-visibility: hidden; */
+  /* backface-visibility: hidden; */
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   -webkit-transition-delay: 0.5s;
@@ -359,7 +359,7 @@ div.slideouticons div.iconswrapper {
 
 div.slideouticons div.iconswrapper ul {
   position: absolute;
-  right: -22px;
+  /* right: -22px; */
   bottom: 60px;
   list-style: none;
   margin: 0;
@@ -481,6 +481,13 @@ div.slideouticons.horizontal input:checked ~ div.iconswrapper ul li {
   color: #000 !important;
 }
 
+div.slideouticons div.iconswrapper ul li {
+  opacity: 1 !important;
+  transform: translateY(0) rotate(360deg) !important;
+  transition: all 0.5s;
+}
+
+
 .bg-\[length\:110\%_115\%\],
 .bg-\[length\:110\%_105\%\],
 .md\:w-\[32\%\].w-full.h-\[370px\].hidden.md\:block.bg-\[url\(\.\/img\/services\.png\)\].bg-\[length\:110\%_105\%\].p-5.rounded-lg.services-box {
@@ -576,7 +583,15 @@ html {
     -webkit-perspective: 1000px;
     perspective: 1000px;
     z-index: 1000;
-    right: 30px;
     bottom: 70px;
 }
+}
+
+@media screen and (max-width:992px){
+  div.slideouticons {
+    left: 10px;
+  }
+  .floating_btn {
+    right: 5px !important;
+  }
 }

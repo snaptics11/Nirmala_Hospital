@@ -2001,7 +2001,7 @@ header{
   align-items:center;
   justify-content:center;
   z-index: 1000;
-  display: none;
+  /* display: none; */
 }
 
 @keyframes pulsing {
@@ -2035,6 +2035,14 @@ header{
   transition: all 300ms ease-in-out;
 }
 
+
+/* newly added styles  */
+/* footer i{
+  color: #358e83 !important;
+} */
+ .top-header p,.top-header h5{
+  color: #fff !important;
+ }
 
 @media screen and (max-width:992px){
   .elementor img {
